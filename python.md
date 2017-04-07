@@ -13,11 +13,12 @@
 
 
 # Tasks
-## 1-3. Complete the following tasks: (~90 mins)
+## 1-4. Complete the following tasks: (~180 mins)
 
 - [Seconds](seconds/seconds.py)
 - [Count A-s](countas/count-as.py)
 - [Pirates](pirates/pirates.py)
+- [Box](box/box.py)
 
 ### Acceptance criteria
 The application is accepted if:
@@ -28,12 +29,7 @@ The application is accepted if:
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 4. Question time! (~10 mins) [2p]
+## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
 #### Your answer: [add your answer here]
-
-## 5. Homework: finish this task until Sunday midnight
-The acceptance criteria is the same as with tasks 1-3.
-
-- [Box](box/box.py)
