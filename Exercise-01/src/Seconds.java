@@ -6,21 +6,22 @@ import java.util.List;
  */
 public class Seconds {
   public static void main(String[] args) {
-    List<Integer> myList = new ArrayList<>();
-    myList.add(1);
-    myList.add(2);
-    myList.add(3);
-    myList.add(4);
-    myList.add(5);
+    List<String> myList = new ArrayList<>();
+    myList.add("1");
+    myList.add("2");
+    myList.add("3");
+    myList.add("4");
+    myList.add("5");
     System.out.println(myList);
 
     listEverySecondElement(myList);
   }
 
-  public static List<Integer> listEverySecondElement(List<Integer> myList) {
-    List<Integer> list = new ArrayList<>();
-    for(int i = 2; i < list.size(); i += 2) {
-      System.out.println(String.valueOf(list.get(i)));
+  public static List<String> listEverySecondElement(List<String> myList) {
+    List<String> list = new ArrayList<>();
+    String convertedString = String.join(",",list);
+    for(int i = 0; i < list.size(); i += 2) {
+      System.out.println(String.valueOf(list.get(i)) + " ");
     }
     return list;
   }
