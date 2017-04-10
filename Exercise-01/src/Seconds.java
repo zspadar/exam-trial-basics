@@ -1,5 +1,31 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by zsuzsanna.padar on 2017. 04. 10..
  */
 public class Seconds {
+  public static void main(String[] args) {
+    List<String> myList = new ArrayList<>();
+    myList.add("1");
+    myList.add("2");
+    myList.add("3");
+    myList.add("4");
+    myList.add("5");
+
+    listEverySecondElement(myList);
+
+  }
+
+  public static List<String> listEverySecondElement(List<String> myList) {
+    List<String> list = new ArrayList<>();
+    String convertedString = String.join(";",list);
+    for(int i = 2; i < convertedString.length(); i += 2) {
+      System.out.println(convertedString = list.get(i));
+    }
+    return list;
+    //get every seconfd element
+    //print result
+
+  }
 }
