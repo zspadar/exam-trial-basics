@@ -49,16 +49,14 @@ public class PirateCounter {
     // - have more than 15 gold
   }
 
-   private legAndGoldCounter(List<Pirate> list){
+   private legAndGoldCounter(List<Pirate> list) {
     List<Pirate> myList = new ArrayList<>();
     for(int i = 0; i < myList.size(); i++) {
-      if (getClass().getGold(int) > 15 && myList.contains(getClass().getisHasWoodenLeg() == true)) {
+      if (getClass().getGold() > 15 && myList.contains(getClass().isHasWoodenLeg() == true)) {
         System.out.println(myList.add(new Pirate(getClass().getName(i))));
       }
     }
-    return myList;
 
-
-  }
+   }
 
 }
