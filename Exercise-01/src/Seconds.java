@@ -14,18 +14,14 @@ public class Seconds {
     myList.add("5");
 
     listEverySecondElement(myList);
-
   }
 
   public static List<String> listEverySecondElement(List<String> myList) {
     List<String> list = new ArrayList<>();
-    String convertedString = String.join(";",list);
+    String convertedString = String.join(" ",list);
     for(int i = 2; i < convertedString.length(); i += 2) {
       System.out.println(convertedString = list.get(i));
     }
     return list;
-    //get every seconfd element
-    //print result
-
   }
 }
