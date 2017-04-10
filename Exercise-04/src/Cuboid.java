@@ -6,7 +6,7 @@ public class Cuboid {
     CubeSides cubeSides = new CubeSides(4,4,5);
 
     cubeSides.getSurface(4,4,5);
-    cubeSides.getValue(4,4,5);
+    cubeSides.getVolume(4,4,5);
   }
 }
 

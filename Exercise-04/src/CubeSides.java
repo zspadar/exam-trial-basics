@@ -29,7 +29,7 @@ public class CubeSides {
     System.out.println(surface);
   }
 
-  void getValue(int a, int b, int c) {
+  void getVolume(int a, int b, int c) {
     int value = a * b* c;
     System.out.println(value);
   }
