@@ -38,10 +38,18 @@ To generate a random number we can use an API called Math.random(). This generat
   - greater than or equals to 0.0
   - and less than 1.0
  It is something like this: 0 <= Math.random() < 1.0
+ 
 Examples:
-##(1) returns a random integer between 0 and 9
-######(int) (Math.random() * 10)
-##(2) returns a random integer between 50 and 99
-######50 + (int) (Math.random()) * 50) ---> where the first 50 gives the lower bound
-##(3) returns a random number a and a+b, excluding a+b
-#####a + Math.random() * b
+
+(1) returns a random integer between 0 and 9
+
+    (int) (Math.random() * 10)
+    
+(2) returns a random integer between 50 and 99
+
+    50 + (int) (Math.random()) * 50) ---> where the first 50 gives the lower bound
+    
+(3) returns a random number a and a+b, excluding a+b
+
+    a + Math.random() * b
+    
