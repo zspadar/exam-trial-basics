@@ -17,12 +17,11 @@ public class Seconds {
     listEverySecondElement(myList);
   }
 
-  public static List<String> listEverySecondElement(List<String> myList) {
+  static void listEverySecondElement(List<String> myList) {
     List<String> list = new ArrayList<>();
     String convertedString = String.join(",",list);
-    for(int i = 0; i < list.size(); i += 2) {
-      System.out.println(String.valueOf(list.get(i)) + " ");
+    for(int i = 0; i < convertedString.length(); i += 2) {
+      System.out.println(String.valueOf(list.get(convertedString.charAt(i)) + ","));
     }
-    return list;
   }
 }
