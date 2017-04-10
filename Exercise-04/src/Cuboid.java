@@ -2,10 +2,11 @@
  * Created by zsuzsanna.padar on 2017. 04. 10..
  */
 public class Cuboid {
+  public static void main(String[] args) {
+    CubeSides cubeSides = new CubeSides(4,4,5);
 
+    cubeSides.getSurface(4,4,5);
+    cubeSides.getValue(4,4,5);
+  }
 }
 
-// Create a class that represents a cuboid:
-// It should take its three dimensions as constructor parameters (numbers)
-// It should have a method called `getSurface` that returns the cuboid's surface
-// It should have a method called `getVolume` that returns the cuboid's volume
