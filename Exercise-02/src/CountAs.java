@@ -26,13 +26,15 @@ public class CountAs {
       int aCounter = 0;
       char letterA = 'a';
       while (aCounter < lines.size()) {
-        if (!(contentOfFile.charAt() = letterA)) {
-        } else {
-          letterA ++;
+        for (int i = 0; i < contentOfFile.length(); i++) {
+          if ((contentOfFile.charAt(aCounter) == letterA)) {
+          } else {
+            letterA++;
+          }
+          aCounter++;
         }
-        aCounter++;
+        System.out.println(aCounter);
       }
-      System.out.println(aCounter);
     } catch (Exception e){
       System.out.println("No such file exists - your result is 0");
     }
